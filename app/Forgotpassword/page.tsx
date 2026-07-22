@@ -49,12 +49,12 @@ export default function ResetPassword() {
             </a>
           </p>
 
-          <button
-            type="submit"
-            className="w-full h-12 rounded-xl bg-blue-600 hover:bg-blue-700 transition text-white font-semibold cursor-pointer"
-          >
-            Send Reset Link
-          </button>
+        
+            <button 
+            className="bg-blue-700 p-3 rounded-2xl hover:bg-blue-500 cursor-pointer ml-25 px-15">
+              <a href="/Verify-OTP1">Send Reset Link</a>
+            </button>
+        
         </form>
       </div>
     </div>
